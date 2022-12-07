@@ -1,0 +1,12 @@
+#logo {
+    background: url(./images/logo.png);
+}
+
+#wordmark
+{
+    background: url(./images/wordmark.svg);
+}
+
+body {
+    background: #777;
+}

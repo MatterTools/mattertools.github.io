@@ -4,7 +4,13 @@
 
 #wordmark
 {
-    background: url(./images/wordmark.svg);
+    background: url(./images/wordmark.svg) no-repeat center center;
+    width: 406px;
+    height: 0;
+    overflow: hidden;
+    padding-top: 87px;
+    display: block;
+    margin: 0 auto;
 }
 
 body {

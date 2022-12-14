@@ -8,11 +8,25 @@
 {
     background: url(./images/wordmark.svg) no-repeat center center;
     width: 406px;
+    background-size: contain;
     height: 0;
     overflow: hidden;
     padding-top: 87px;
     display: block;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    #wordmark
+    {
+        width: 271px;
+        padding-top: 58px;
+    }
+
+    .display-4 {
+        font-size: 2rem;
+        margin: 1em 0.25em;
+    }
 }
 
 html, body
@@ -25,7 +39,11 @@ body {
     text-align: center;
     height: 100vh;
     display: block;
-    background: #326095;
+    background: #195eae;
+}
+
+.navbar, footer {
+   background: #19314d;
 }
 
 .hero
@@ -33,6 +51,14 @@ body {
     overflow: hidden;
     margin: 0;
     background: none;
+    color: #fff;
+}
+
+.signup
+{
+    margin-top: 10pt;
+    box-shadow: 0 14px 10px rgba(0, 0, 0, 0.12), 0 2px 3px 3px rgba(0, 0, 0, 0.20);
+    background: rgba(255,255,255,0.1);
 }
 
 #a-v
@@ -49,12 +75,14 @@ h1, h2, h3 {
     padding: 2em 0;
 }
 
+.conclusion h3 {
+    margin: 2.5em 1em;
+}
+
 footer {
     bottom: 0;
     width: 100%;
     margin: 0;
     padding: 1em 0;
     color: #fff;
-    background: #000;
-    opacity: 0.5;
 }
